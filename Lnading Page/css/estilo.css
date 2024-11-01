@@ -1,0 +1,141 @@
+/* Parte Header */
+.logo{
+    width: 70px;
+    height: auto;
+}
+/* Parte de Hero */
+.titulo{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(255, 157, 9); 
+    font-size: 70px;
+}
+.subtitulo{
+    color: rgb(6, 0, 40);
+}
+.parrafo{
+    color:  rgb(6, 0, 40);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+.image{
+    width: 1300px;
+    height: auto;
+}
+/* Fin parte Hero */
+/* Parte Boton Fijo */
+.fixed-button{
+    position: fixed;
+    bottom: 50%; 
+    right: 0; 
+    margin-right: 0;
+    transform: translateY(50%) rotate(-90deg); 
+    padding: 15px 10px; 
+    z-index: 999;
+}
+/* Parte Galeria */
+.galeria{
+    text-align: center;
+    background-color: rgb(234, 234, 234);
+}
+.imagegalery{
+    width: 500px;
+    height: auto;
+}
+.imagegalery2{
+    width: 690px;
+    height: auto;
+}
+.imagegalery3{
+    width: 700px;
+    height: auto;
+}
+/* Fin parte galeria */
+/* Inicio Items */
+.items{
+    text-align: center;
+    background-color: rgb(234, 234, 234);
+}
+/* Fin parte Items */
+/* Inicio parte beneficios */
+.beneficios{
+    text-align: center;
+}
+.beneficios .card{
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    background: white;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 1px 1px, rgba(255, 255, 255, 0.25) 0px 0px 1px 1px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    z-index: 1;
+}
+.beneficios .card::before{
+    content: "";
+    position: absolute;
+    background:  rgb(255, 157, 9);
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 100%;
+    transition: all 0.3s;
+    z-index: -1;
+}
+.beneficios .card:hover::before{
+    background:  rgb(255, 157, 9);
+    top: 0;
+    border-radius: 0%;
+}
+.beneficios .cardtittle{
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.beneficios .cardtittle{
+    color: black;
+}
+.beneficios .textcard{
+    color: black;
+}
+.beneficios .card:hover .cardtittle, 
+.beneficios .card:hover .textcard{
+    color: white;
+}
+.beneficios .icono{
+    color: white;
+}
+.beneficios .card:hover .icono{
+    color: white;
+}
+
+/* Fin parte beneficios */
+/* Inicio parte forms */
+.forms{
+    text-align: center;
+    background-color: black;
+}
+.formtittle{
+    color: rgb(255, 157, 9); 
+}
+.formsubtittle{
+    color: white;
+}
+.colorlabel{
+    color: white;
+}
+/* Fin parte forms */
+/* Inicio parte footer */
+.derechos{
+    text-align: center;
+}
+.iconos{
+    text-align: center;
+    padding: 30px 0px;
+}
+/* Fin parte footer */
